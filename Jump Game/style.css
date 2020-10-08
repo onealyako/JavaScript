@@ -1,12 +1,28 @@
-*{  
-    padding: 0;
+/* 
+ * O'Neal Yako
+ */
+
+/* 
+    Set this to get rid of 
+    basic browser padding and margins.
+*/ 
+*{ 
+    padding: 0; 
     margin: 0;
 }
+
+/* 
+    Create the border layout of the game
+*/
 #game{
     width: 500px;
     height: 200px;
     border: 1px solid black;
 }
+
+/* 
+    Create the character block 
+*/
 #character{
     width: 20px;
     height: 50px;
